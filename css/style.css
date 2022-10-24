@@ -39,10 +39,14 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 ._container {
     max-width: 1046px;
+    padding: 0px 15px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 /* --HEAD-------------------------------------------------------- */
 .header {
@@ -65,16 +69,41 @@ body {
 .header__menu {
     padding: 0px 0px 0px 133px;
 }
+@media (max-width: 992px) {
+    .header__menu {
+        padding: 0px 0px 0px 80px;
+    }
+}
+@media (max-width: 767px) {
+    .header__menu {
+        padding: 0px 0px 0px 50px;
+    }
+}
 .menu {
 }
 .manu_list {
     display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 449px) {
+    /* Boorger manu here */
+    .manu_list {
+        display: none;
+    }
 }
 .menu__item {
     
+}
+.menu__item:not(:last-child) {
+    margin: 0px 21px 0px 0px;
 }
 .menu__link {
     color: #737373;
     line-height: calc(24 / 14 * 100%);
     font-weight: 600;
 }
+/* ---MAIN------------------------------------------ */
+main {
+    flex: 1 1 auto;
+}
+/* ---FOOTER-------------------------------------------------- */
