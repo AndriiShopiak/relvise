@@ -31,14 +31,50 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color: #252B42;
+    font-family: Montserrat;
+    font-weight: 500;
 }
 .wrapper {
     min-height: 100%;
     overflow: hidden;
 }
 ._container {
-    min-width: 1046px;
+    max-width: 1046px;
     margin: 0 auto;
+}
+/* --HEAD-------------------------------------------------------- */
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    min-height: 104px;
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+}
+.header__menu {
+    padding: 0px 0px 0px 133px;
+}
+.menu {
+}
+.manu_list {
+    display: flex;
+}
+.menu__item {
+    
+}
+.menu__link {
+    color: #737373;
+    line-height: calc(24 / 14 * 100%);
+    font-weight: 600;
 }
