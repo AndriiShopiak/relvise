@@ -92,8 +92,6 @@ body {
         padding: 0px 0px 0px 50px;
     }
 }
-.menu {
-}
 .manu_list {
     display: flex;
     flex-wrap: wrap;
@@ -103,9 +101,6 @@ body {
     .manu_list {
         display: none;
     }
-}
-.menu__item {
-    
 }
 .menu__item:not(:last-child) {
     margin: 0px 21px 0px 0px;
@@ -122,8 +117,6 @@ body {
 /* ---MAIN-BLOCK------------------------------------------------------- */
 .main-block {
     position: relative;
-}
-.main-block__container {
 }
 .main-block__body {
     padding: 184px 0px 191px 0px;
