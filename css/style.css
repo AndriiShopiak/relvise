@@ -465,6 +465,7 @@ body {
 }
 .whoweare__body {
     display: flex;
+    align-items: flex-start;
 }
 .whoweare__video {
     flex: 0 0 57%;
@@ -481,7 +482,13 @@ body {
 }
 .whoweare__content {
     flex: 1 1 auto;
-    padding: 0px 0px 0px 121px;
+    padding: 20px 0px 0px 121px;
+}
+@media (max-width: 1080px) {
+    .whoweare__content {
+        padding: 0px 0px 0px 50px; 
+    }
+    
 }
 .whoweare__title {
     font-weight: 800;
