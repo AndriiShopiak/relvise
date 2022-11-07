@@ -484,6 +484,11 @@ body {
     flex: 1 1 auto;
     padding: 20px 0px 0px 121px;
 }
+@media (max-width: 1080px) {
+    .whoweare__content {
+        padding: 0px 0px 0px 50px; 
+    }
+}
 @media (max-width:950px) {
     .whoweare {
         padding: 50px 0px 50px 0px;
@@ -498,17 +503,14 @@ body {
     .whoweare__video {
         padding: 0px 0px 56.25% 0px;
     }
-
+    .whoweare__content {
+        padding: 0px 0px 0px 0px;
+    }
     .whoweare__title {
         font-size: 24px;
     }
     .whoweare__content {
         padding: 0px;
-    }
-}
-@media (max-width: 1080px) {
-    .whoweare__content {
-        padding: 0px 0px 0px 50px; 
     }
 }
 .whoweare__title {
@@ -525,7 +527,7 @@ body {
     line-height: 142%;
 }
 .whoweare__text:not(:last-child) {
-    margin: 50px 0px 0px 0px;
+    margin: 10px 0px 50px 0px;
 
 }
 .whoweare__items {
