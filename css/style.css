@@ -123,6 +123,8 @@ body {
 }
 .page__subscribe {
 }
+.page__getintouch {
+}
 /* ---HEADER-BLOCK---------------------------------------------------- */
 .header-block {
     text-align: center;
@@ -686,5 +688,43 @@ body {
     text-align: center;
     color: #fff;
     padding: 0px 22px;
+}
+/* ---GETINTOUCH----------------------------------------------- */
+.getintouch {
+    padding: 80px 0px 135px 0px;
+}
+.getintouch__container {
+}
+.getintouch__header {
+    margin: 0px 0px 80px 0px;
+}
+.getintouch__items {
+    display: flex;
+    align-items: center;
+}
+.getintouch__item {
+    flex: 0 1 33.333%;
+}
+.item-getintouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+}
+.item-getintouch__icon {
+}
+.item-getintouch__emails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-getintouch__email {
+}
+.item-getintouch__label {
+}
+.item-getintouch__button {
 }
 /* ---FOOTER-------------------------------------------------- */
