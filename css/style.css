@@ -224,10 +224,20 @@ body {
 ._orange {
     background: #ff7b47;
     color: #fff;
+    transition: all .6s ease-out;
+}
+._orange:hover {
+    background: #c86139;
+    color: #fff;
 }
 .main-block__button_border {
     color: #0d5c63;
     border: 1px solid #0d5c63;
+    transition: all .6s ease-out;
+}
+.main-block__button_border:hover {
+    color: #fff;
+    background: #0d5c63;
 }
 .main-block__image {
     position: absolute;
@@ -693,6 +703,11 @@ body {
     text-align: center;
     color: #fff;
     padding: 0px 22px;
+    cursor: pointer;
+    transition: all .6s ease-out;
+}
+.subscribe__button:hover {
+    background: #cb633a;
 }
 /* ---GETINTOUCH----------------------------------------------- */
 .getintouch {
